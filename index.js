@@ -76,7 +76,6 @@ function displayProducts(products) {
         <p>Desc.: ${product.description.slice(0, 30)}...</p>
         <p>Reviews: ${product.reviews[0].comment}</p>
         <p>Rating: ${product.shippingInformation}</p>
-        <p>Available: ${product.availabilityStatus}</p>
       `;
 
     list.appendChild(li);
