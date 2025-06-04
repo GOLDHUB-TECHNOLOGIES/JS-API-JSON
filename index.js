@@ -68,14 +68,14 @@ function displayProducts(products) {
     const li = document.createElement("li");
     li.className = "product";
     li.innerHTML = `
-        <p>${product.availabilityStatus}</p>
+        <p class = "status">${product.availabilityStatus}</p>
         <img src="${product.thumbnail}" alt="${product.title}">
-        <h3>${product.title}</h3>
-        <p>Brand: ${product.brand}</p>
-        <p>Price: $${product.price}</p>
-        <p>Desc.: ${product.description.slice(0, 30)}...</p>
-        <p>Reviews: ${product.reviews[0].comment}</p>
-        <p>Rating: ${product.shippingInformation}</p>
+        <h3 class = "title">${product.title}</h3>
+        <p class = "brand">Brand: ${product.brand}</p>
+        <p class = "desc">Desc.: ${product.description.slice(0, 30)}</p>
+        <p class = "price">Price: $${product.price}</p>
+        <p class = "review">Reviews: ${product.reviews[0].comment}</p>
+        <p class = "rating">Rating: ${product.shippingInformation}</p>
       `;
 
     list.appendChild(li);
