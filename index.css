@@ -26,6 +26,7 @@ h1 {
   padding: 0;
   margin: 20px;
   list-style: none;
+  
 }
 
 .product {
@@ -35,6 +36,7 @@ h1 {
   padding: 15px;
   box-shadow: 0 0 10px rgba(4, 3, 3, 0.2);
   transition: transform 0.2s;
+  border: 1px solid rgb(150, 31, 7);
 }
 
 .status {
