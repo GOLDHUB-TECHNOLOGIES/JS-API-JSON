@@ -17,6 +17,9 @@ h1 {
   font-size: 50px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(4, 3, 3, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #productList {
@@ -26,11 +29,10 @@ h1 {
   padding: 0;
   margin: 20px;
   list-style: none;
-  
 }
 
 .product {
-  position: relative;
+  /* position: relative; */
   background: rgb(246, 244, 244);
   border-radius: 8px;
   padding: 15px;
